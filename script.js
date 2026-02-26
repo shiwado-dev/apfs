@@ -152,7 +152,7 @@ const albums = [
 { title: "apfs - Выпить или выпилиться", file: "apfs-treki/Автостопом по фазе сна - Выпить или выпилиться_ (hitmos.fm).mp3" },
 { title: "apfs - Кругосветка в рамках черепной коробки", file: "apfs-treki/Автостопом по фазе сна - Кругосветка в рамках черепной коробки (hitmos.fm).mp3" },
 { title: "apfs - Intro", file: "apfs-treki/Автостопом по фазе сна - Intro (hitmos.fm).mp3" },
-{ title: "apfs - Эхо 51", file: "kishlak-treki/apfs_-_jekho_51_77469607.mp3" }
+{ title: "apfs - Эхо 51", file: "https://files.catbox.moe/foshu7.mp3" }
         ]
     },
 
@@ -372,4 +372,5 @@ searchInput.addEventListener("input", () => {
             songDiv.style.display = "none"; // скрываем
         }
     });
+
 });
