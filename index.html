@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimal Dark Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Левая панель с альбомами -->
+    <div class="albums" id="albumList">
+        <h2>Альбомы</h2>
+    </div>
+
+    <!-- Правая часть (плеер) -->
+    <div class="player">
+        <h2 id="albumTitle">Выберите альбом</h2>
+        <input type="text" id="search" placeholder="Поиск песен..." />
+<div id="songList"></div>
+        <div class="song-list" id="songList"></div>
+
+   <div id="fixedPlayer">
+    <div id="nowPlaying">Сейчас играет: —</div>
+    <div id="playerControls">
+        <button id="playPause">▶</button>
+        <input type="range" id="progress" value="0" min="0" max="100">
+        <span id="time">0:00 / 0:00</span>
+    </div>
+    <audio id="audioPlayer"></audio>
+</div>
+    </div>
+
+<p class="razrab">Made by Shiwado</p>
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
