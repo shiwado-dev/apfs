@@ -162,7 +162,7 @@ const albums = [
 { title: "apfs - Blood", file: "https://files.catbox.moe/8t3q3a.mp3" },
 { title: "apfs - Прыгай с крыши, делай сальто", file: "https://files.catbox.moe/pkir67.mp3" },
 { title: "apfs - Ррррррассстаа", file: "https://files.catbox.moe/9fhqv2.mp3" },
-{ title: "apfs - Бесконечно", file: "https://files.catbox.moe/h3z2n0.mp3" },
+{ title: "apfs - Аня долгова", file: "https://files.catbox.moe/h3z2n0.mp3" },
 { title: "apfs - Бред Котара", file: "https://files.catbox.moe/6ts74d.mp3" },
 { title: "apfs - Выдумки", file: "https://files.catbox.moe/ipdtlx.mp3" },
 { title: "apfs - PRORAVE", file: "https://files.catbox.moe/b8yxcn.mp3" },
@@ -394,3 +394,4 @@ searchInput.addEventListener("input", () => {
         }
     });
 });
+
