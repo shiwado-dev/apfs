@@ -1,13 +1,3 @@
-/*
-====================================================
-  🔥 ЗДЕСЬ ТЫ ДОБАВЛЯЕШЬ СВОИ АЛЬБОМЫ И ПЕСНИ
-====================================================
-  cover: путь к картинке альбома
-  songs: массив песен
-  title: название песни
-  file: путь к mp3 файлу
-====================================================
-*/
 
 const albums = [
     {
@@ -251,8 +241,11 @@ const albums = [
 ];
 
 
+
 /* ====== ЭЛЕМЕНТЫ ====== */
 const albumList = document.getElementById("albumList");
+const prevBtn = document.getElementById('prev');
+const nextBtn = document.getElementById('next');
 const songList = document.getElementById("songList");
 const albumTitle = document.getElementById("albumTitle");
 const audioPlayer = document.getElementById("audioPlayer");
@@ -264,6 +257,28 @@ const nowPlaying = document.getElementById("nowPlaying");
 let isPlaying = false;
 let currentAlbumIndex = null;
 let currentSongIndex = null;
+
+
+
+nextBtn.addEventListener('click', () => {
+    if(currentAlbumIndex === null || currentSongIndex === null) return;
+
+    const album = albums[currentAlbumIndex];
+    // Перелистываем песни, зацикливая
+    const nextIndex = (currentSongIndex + 1) % album.songs.length;
+    playSong(currentAlbumIndex, nextIndex);
+});
+
+
+prevBtn.addEventListener('click', () => {
+    if(currentAlbumIndex === null || currentSongIndex === null) return;
+
+    const album = albums[currentAlbumIndex];
+    // Перелистываем назад, зацикливая
+    const prevIndex = (currentSongIndex - 1 + album.songs.length) % album.songs.length;
+    playSong(currentAlbumIndex, prevIndex);
+});
+
 
 /* ====== КНОПКА PLAY/PAUSE ====== */
 playPause.addEventListener("click", () => {
@@ -283,6 +298,12 @@ audioPlayer.addEventListener("pause", () => {
     isPlaying = false;
     playPause.textContent = "▶";
 });
+
+
+
+
+
+
 
 /* ====== ПРОГРЕСС БАР ====== */
 audioPlayer.addEventListener("timeupdate", () => {
@@ -372,8 +393,4 @@ searchInput.addEventListener("input", () => {
             songDiv.style.display = "none"; // скрываем
         }
     });
-
 });
-
-
-
