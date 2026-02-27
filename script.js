@@ -160,7 +160,7 @@ const albums = [
         name: "Синглы",
         cover: "https://i.scdn.co/image/ab67616d0000b273ffe032fc54c024dbd5697d27",
         songs: [
-            { title: "apfs - Давит весна", file: "apfs-treki/Под_Одним_Небом,_Автостопом_по_фазе_сна_Давит_весна.m4a" },
+            { title: "apfs - Давит весна", file: "https://files.catbox.moe/o4tl7y.m4a" },
 { title: "apfs - Болотная блювота", file: "apfs-treki/Автостопом_по_фазе_сна_болотная_блювота.m4a" },
 { title: "apfs - Маэстро, дай мне дури", file: "apfs-treki/Автостопом_по_фазе_сна_Маэстро,_дай_мне_дури.mp3" },
 { title: "apfs - Собачка", file: "apfs-treki/Автостопом по фазе сна - собачка .mp3" },
@@ -172,13 +172,13 @@ const albums = [
 { title: "apfs - Blood", file: "apfs-treki/Автостопом по фазе сна - blood.mp3" },
 { title: "apfs - Прыгай с крыши, делай сальто", file: "apfs-treki/Автостопом_по_фазе_сна_прыгай_с_крыши,_делай_сальто.mp3" },
 { title: "apfs - Ррррррассстаа", file: "apfs-treki/Автостопом_по_фазе_сна_Ррррррассстаа.mp3" },
-{ title: "apfs - Бесконечно", file: "kishlak-treki/Автостопом_по_фазе_сна_бесконечно.mp3" },
-{ title: "apfs - Бред Котара", file: "kishlak-treki/Babababudaba_X_Автостопом_По_Фазе_Сна_Бред_Котара.mp3" },
-{ title: "apfs - Выдумки", file: "kishlak-treki/Автостопом по фазе сна - выдумки.mp3" },
+{ title: "apfs - Бесконечно", file: "https://files.catbox.moe/h3z2n0.mp3" },
+{ title: "apfs - Бред Котара", file: "https://files.catbox.moe/6ts74d.mp3" },
+{ title: "apfs - Выдумки", file: "https://files.catbox.moe/ipdtlx.mp3" },
 { title: "apfs - PRORAVE", file: "apfs-treki/Автостопом_по_фазе_сна_PRORAVE.mp3" },
-{ title: "apfs - МА, Я ЛАЮ", file: "kishlak-treki/Ма, я лаю    Автостопом по фазе сна.mp3" },
-{ title: "apfs - Bullterrier", file: "kishlak-treki/Bullterrier   Автостопом по фазе сна.mp3" },
-{ title: "apfs - Болотная блювота", file: "kishlak-treki/Автостопом_по_фазе_сна_болотная_блювота.m4a" },
+{ title: "apfs - МА, Я ЛАЮ", file: "https://files.catbox.moe/xoy6e6.mp3" },
+{ title: "apfs - Bullterrier", file: "https://files.catbox.moe/xgqz68.mp3" },
+{ title: "apfs - Болотная блювота", file: "https://files.catbox.moe/6n2mka.m4a" },
             
            
            
@@ -203,17 +203,17 @@ const albums = [
         name: "Кишлак - 11:11",
         cover: "https://static.hitmos.fm/album/000/015/061/376422_large.jpg",
         songs: [
-            {  title: "Кишлак - Космический мусор", file: "kishlak-treki/Кишлак - Космический мусор (hitmos.fm).mp3" },
-{ title: "Кишлак - Я немного пьян", file: "kishlak-treki/Кишлак - Я немного пьян (hitmos.fm).mp3" },
-{ title: "Кишлак - Ложь, жизнь, я", file: "kishlak-treki/Кишлак - Ложь, жизнь, я (hitmos.fm).mp3" },
-{ title: "Кишлак - Тупые предки", file: "kishlak-treki/Кишлак - Тупые предки (hitmos.fm).mp3" },
-{ title: "Кишлак - Эмо", file: "kishlak-treki/Кишлак - Эмо (hitmos.fm).mp3" },
-{ title: "Кишлак - Нахуя", file: "kishlak-treki/Кишлак - Нахуя (hitmos.fm).mp3" },
-{ title: "Кишлак - Кошка", file: "kishlak-treki/Кишлак - Кошка (hitmos.fm).mp3" },
-{ title: "Кишлак - Грязь", file: "kishlak-treki/Кишлак - Грязь (hitmos.fm).mp3" },
-{ title: "Кишлак - Маленький бандит", file: "kishlak-treki/Кишлак - Маленький бандит (hitmos.fm).mp3" },
-{ title: "Кишлак - 11:11", file: "kishlak-treki/Кишлак - 11_11 (hitmos.fm).mp3" },
-{ title: "Кишлак - Лягушачий блюз", file: "kishlak-treki/Кишлак - Лягушачий блюз (hitmos.fm).mp3"  }
+            {  title: "Кишлак - Космический мусор", file: "https://files.catbox.moe/jgvdbc.mp3" },
+{ title: "Кишлак - Я немного пьян", file: "https://files.catbox.moe/3tissx.mp3" },
+{ title: "Кишлак - Ложь, жизнь, я", file: "https://files.catbox.moe/xl9x8c.mp3" },
+{ title: "Кишлак - Тупые предки", file: "https://files.catbox.moe/nse819.mp3" },
+{ title: "Кишлак - Эмо", file: "https://files.catbox.moe/ir9gre.mp3" },
+{ title: "Кишлак - Нахуя", file: "https://files.catbox.moe/x7njnz.mp3" },
+{ title: "Кишлак - Кошка", file: "https://files.catbox.moe/junxa2.mp3" },
+{ title: "Кишлак - Грязь", file: "https://files.catbox.moe/uvq3kp.mp3" },
+{ title: "Кишлак - Маленький бандит", file: "https://files.catbox.moe/yi17qd.mp3" },
+{ title: "Кишлак - 11:11", file: "https://files.catbox.moe/39ypx2.mp3" },
+{ title: "Кишлак - Лягушачий блюз", file: "https://files.catbox.moe/nys3qs.mp3"  }
         ]
     },
 
@@ -222,9 +222,9 @@ const albums = [
         name: "Кишлак - Кто я",
         cover: "https://static.hitmos.fm/album/000/015/062/376424_large.jpg",
         songs: [
-             { title: "Кишлак - Хуанихуау", file: "kishlak-treki/Кишлак - Хаунихуау (hitmos.fm).mp3" },
-{ title: "Кишлак - Вы все отбросы", file: "kishlak-treki/Кишлак - Вы все отбросы (hitmos.fm).mp3" },
-{ title: "Кишлак - Но", file: "kishlak-treki/Кишлак - Но (hitmos.fm).mp3"  },
+             { title: "Кишлак - Хуанихуау", file: "https://files.catbox.moe/7206fe.mp3" },
+{ title: "Кишлак - Вы все отбросы", file: "https://files.catbox.moe/o97zkn.mp3" },
+{ title: "Кишлак - Но", file: "https://files.catbox.moe/sp4cwm.mp3"  },
         ]
     },
 
@@ -232,14 +232,14 @@ const albums = [
         name: "Кишлак - Синглы",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/aa/61/efaa61cb-d1e5-4af5-e918-5bbb8517131c/cover.jpg/316x316bb.webp",
         songs: [
-            { title: "Кишлак - Двинулся на тебе", file: "kishlak-treki/GRILLYAZH, Кишлак - ДВИНУЛСЯ НА ТЕБЕ.mp3" },
-{ title: "Кишлак - Марина Обойкина", file: "kishlak-treki/Кишлак - Марина Обойкина.mp3" },
-{ title: "Кишлак - Один дома", file: "kishlak-treki/семьсот семь - Один дома.mp3" },
-{ title: "Кишлак - Внутри", file: "kishlak-treki/семьсот семь, Кишлак - Внутри.mp3" },
-{ title: "Кишлак - По-старому", file: "kishlak-treki/Кишлак - По-старому.mp3" },
-{ title: "Кишлак - Пацанский эмо рэп", file: "kishlak-treki/Кишлак,_семьсот_семь_Пацанский_эмо_рэп (1).mp3" },
-{ title: "Кишлак - Марсиане", file: "kishlak-treki/Кишлак - Марсиане.mp3" },
-{ title: "Кишлак - Апноэ", file: "kishlak-treki/Кишлак - Апноэ.mp3" },
+            { title: "Кишлак - Двинулся на тебе", file: "https://files.catbox.moe/e05dt4.mp3" },
+{ title: "Кишлак - Марина Обойкина", file: "https://files.catbox.moe/x7kmqe.mp3" },
+{ title: "Кишлак - Один дома", file: "https://files.catbox.moe/hwceki.mp3" },
+{ title: "Кишлак - Внутри", file: "https://files.catbox.moe/5b40mr.mp3" },
+{ title: "Кишлак - По-старому", file: "https://files.catbox.moe/ajk59a.mp3" },
+{ title: "Кишлак - Пацанский эмо рэп", file: "https://files.catbox.moe/feujop.mp3" },
+{ title: "Кишлак - Марсиане", file: "https://files.catbox.moe/alxpy1.mp3" },
+{ title: "Кишлак - Апноэ", file: "https://files.catbox.moe/npdzsh.mp3" },
           
 
         ]               
@@ -374,4 +374,5 @@ searchInput.addEventListener("input", () => {
     });
 
 });
+
 
